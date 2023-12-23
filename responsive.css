@@ -1,0 +1,130 @@
+@media screen and (max-width: 1366px){
+    #head-left img{
+        width: 20rem;
+    }
+    #head-right h1{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    #nav-items{
+        font-size: 1.1rem;
+    }
+    #head-right h1{
+        font-size: 3rem;
+    }
+    #head-left img{
+        width: 18rem;
+    }
+    #head-main-content{
+        gap: 2rem;
+    }
+    #skills-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .section-titles{
+        font-size: 2.5rem;
+    }
+    #contact-us{
+        padding: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #head-main{
+        padding: 1rem 0;
+    }
+    #head-main-content{
+        padding: 5rem 0;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+    #head-left img{
+        width: 12rem;
+    }
+    #nav-items{
+        font-size: 1.1rem;
+        flex-direction: column;
+        gap: 1.2rem;
+        align-items: center;
+    }
+    #head-right{
+        text-align: center;
+        font-size: 1rem;
+    }
+    #about-container{
+        margin: 0 auto;
+        border-radius: 0;
+        padding: 3rem;
+    }
+    
+    #about-section{
+        padding: 5rem 4rem;
+    }
+    footer{
+        font-size: 0.875rem;
+    }
+    .section-titles{
+        font-size: 2rem;
+        text-align: center;
+    }
+    #contact-us{
+        padding: 0;
+    }
+    .contact-icons{
+        width: 2.5rem;
+    }
+    #skills-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .skills-box{
+        padding: 1.5rem 6rem;
+    }
+    .skills-image{
+        width: 4rem;
+    }
+    a#cv{
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 421px) {
+    #nav-items{
+        font-size: 1.1rem;
+    }
+    #head-right span{
+        font-size: 1.15rem;
+    }
+    #head-right h1{
+        font-size: 2rem;
+    }
+    #head-right p{
+        font-size: 1rem;
+    }
+    #head-right{
+        padding: 0;
+    }
+    #about-container{
+        padding: 3rem 2rem;
+    }
+    
+    #about-section{
+        padding: 4rem 3rem;
+    }
+    #about-para{
+        font-size: 1rem;
+        
+    }
+    #skills-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .skills-box{
+        padding: 1.5rem 6rem;
+    }
+    .skills-image{
+        width: 4rem;
+    }
+}
