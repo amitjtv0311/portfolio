@@ -29,11 +29,17 @@
     #contact-us{
         padding: 0;
     }
+    #nav-items a{
+        padding: 1rem 1.7rem;
+    }
 }
 
 
 
 @media screen and (max-width: 768px) {
+    #nav-items a{
+        padding: .3rem 2rem;
+    }
     #head-main{
         padding: 1rem 0;
     }
